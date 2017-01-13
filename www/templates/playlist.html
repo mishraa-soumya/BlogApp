@@ -1,0 +1,10 @@
+<ion-view view-title="Playlist" ng-init="getCategoryPosts">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="post in CategoryPosts">
+        {{post.title}}
+      </ion-item>
+      {{ $scope.CategoryPosts }}
+    </ion-list>
+  </ion-content>
+</ion-view>
